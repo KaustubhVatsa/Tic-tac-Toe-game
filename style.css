@@ -16,3 +16,37 @@ nav{
 nav ul{
     list-style-type: none;
 }
+.game-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3 , 8vw);
+    grid-template-rows: repeat(3 , 8vw);
+}
+.box{
+    font-size: 4vw;
+    border: solid #382f2f;
+    font-family:'Tilt Neon', sans-serif ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: rgb(44, 38, 38);
+    color: azure;
+}
+.game-info{
+    padding: 0 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.img-box{
+    display: none;
+}
+.reset{
+    margin-top: 1vw;
+}
